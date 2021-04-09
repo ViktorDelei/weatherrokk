@@ -24,8 +24,4 @@ urllib3==1.26.4
 virtualenv==20.4.3
 
 
-    if message.text == 'Рокитне':
-        r = requests.get('https://ua.sinoptik.ua/погода-рокитне-303022581')
-
-    elif message.text == 'Сарни':
-        r = requests.get('https://ua.sinoptik.ua/погода-сарни-303023755')
+   
