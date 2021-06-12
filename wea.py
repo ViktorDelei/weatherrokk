@@ -33,7 +33,7 @@ for el in html.select('#content'):
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
-	st = open('static/welcome.webp', 'rb')
+	st = open('welcome.webp', 'rb')
 	bot.send_sticker(message.chat.id, st)
 
 	bot.send_message(message.chat.id, "Натискайте на клавіши щоб дізнатись саме те що вас цікавить:", reply_markup=markup)
